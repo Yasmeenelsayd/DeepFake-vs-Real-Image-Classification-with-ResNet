@@ -1,7 +1,7 @@
-# 🕵️ DeepFake vs Real Image Classification with ResNet
+# 🕵️ DeepFake vs Real Image Classification with ResNet50
 
 ## 📌 Overview
-This project implements a **binary image classification model** to distinguish between **Real and Fake (DeepFake) images** using **ResNet** with transfer learning.  
+This project implements a **binary image classification model** to distinguish between **Real and Fake (DeepFake) images** using **ResNet50** with transfer learning.  
 The goal is to provide a reliable detection system that can be extended into real-world applications such as content verification and digital forensics.  
 
 
@@ -17,7 +17,7 @@ The dataset is structured as follows:
 ## ⚙️ Methodology
 
 ###  **Model Architecture**
-- **Base Model:** ResNet (pretrained on ImageNet).  
+- **Base Model:** ResNet50 (pretrained on ImageNet).  
 - **Custom classification head:**
   - Global Average Pooling  
   - Dense (512, ReLU)  
