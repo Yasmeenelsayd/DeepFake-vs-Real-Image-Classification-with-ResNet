@@ -41,25 +41,25 @@ The dataset is structured as follows:
   - Validation accuracy: ~97.28%
   - Loss: ~0.0712 (val)
 
-![Training](assets/Training.png)
+![Training](images/Training.png)
     
 **Loss and accuracy evolution over epochs.**  
 | Accuracy | Loss |
 |------------|------------|
-| ![Accuracy](assets/Accuracy.png) | ![Loss](assets/Loss.png) |
+| ![Accuracy](images/Accuracy.png) | ![Loss](images/Loss.png) |
 
 ### 2. Confusion Matrix 
-![Confusion Matrix](assets/Confusion_Matrix.png)
+![Confusion Matrix](images/Confusion_Matrix.png)
 
 ### 3. Classification Report
-![report](assets/Classification_report.png)
+![report](images/Classification_report.png)
 
 ### 4. Prediction Visualization
 Random test samples with True vs Predicted labels highlighted:  
 - ✅ Correct predictions in **green**  
 - ❌ Wrong predictions in **red**
 
-![Prediction](assets/Prediction.png)
+![Prediction](images/Prediction.png)
 
 ## 📌 Future Work
 - Experiment with ConvNeXt or EfficientNet.
